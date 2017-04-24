@@ -1,3 +1,10 @@
+h1{
+	font-size:90px;
+	color: red;
+}
+
+
+
 img{
   height:400px;
   width:auto;
@@ -9,4 +16,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+
+#meow{
+	font-size:45px;
+	coplor: blue;
 }
