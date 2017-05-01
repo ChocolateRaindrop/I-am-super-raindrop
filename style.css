@@ -16,10 +16,10 @@
 	75%{color:#e8f442;}
 	100%{color:#42f4aa;}
 }
-@h1
+h1{
 	-webkit-animation-name: chocolate; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s;
-    animation-name: chocolate;
+    	-webkit-animation-duration: 1s;
+    	animation-name: chocolate;
 	font-size:90px;
 	font-family: 'Ranga', cursive;
 
