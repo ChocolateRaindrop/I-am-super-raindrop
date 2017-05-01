@@ -1,8 +1,27 @@
 h1{
 	font-size:90px;
-	color: red;
 	font-family: 'Ranga', cursive;
 }
+
+#keyframes chocolate{
+	0% {color:#4286f4;}
+	25%{color:#9242f4;}
+	50%{color:#f442d7;}
+	75%{color:#e8f442;}
+	100%{color:#42f4aa;}
+}
+
+@-webkit-keyframes chocolate{
+	0% {color:#4286f4;}
+	25%{color:#9242f4;}
+	50%{color:#f442d7;}
+	75%{color:#e8f442;}
+	100%{color:#42f4aa;}
+}
+@h1
+	-webkit-animation-name: chocolate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;
+    animation-name: chocolate;
 
 
 
