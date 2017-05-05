@@ -42,7 +42,7 @@ body {
 #meow{
 	font-size:45px;
 	color: purple;
-
+	font-family: 'Eagle Lake', cursive;
 }
 #keyframes chocolate{
 	0% {color:#4286f4;}
