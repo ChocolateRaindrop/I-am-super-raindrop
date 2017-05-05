@@ -42,9 +42,31 @@ body {
 #meow{
 	font-size:45px;
 	color: purple;
-	font-family: 'Eagle Lake', cursive;
+
 }
-li{
-	font size:60px;
+#keyframes chocolate{
+	0% {color:#4286f4;}
+	25%{color:#9242f4;}
+	50%{color:#f442d7;}
+	75%{color:#e8f442;}
+	100%{color:#42f4aa;}
+}
 
+@-webkit-keyframes chocolate{
+	0% {color:#4286f4;}
+	25%{color:#9242f4;}
+	50%{color:#f442d7;}
+	75%{color:#e8f442;}
+	100%{color:#42f4aa;}
+}
+#yes{
+	-webkit-animation-name: chocolate; /* Safari 4.0 - 8.0 */
+    	-webkit-animation-duration: 1s;
+    	animation-name: chocolate;
+  	animation-duration: 1s;
+  	animation-iteration-count: infinite;
+  	-webkit-animation-iteration-count: infinite;
+	font-size:60px;
+	font-family: 'Cinzel', serif;
 
+}
