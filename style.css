@@ -75,10 +75,10 @@ ol{
   font-size: 30px;
 }
 table{
-	border-collapse: collapse;
+	border-style: double;
 }
-table, th, td{
-	border:1px red
+table{
+	border:1px red;
 }
 
 
