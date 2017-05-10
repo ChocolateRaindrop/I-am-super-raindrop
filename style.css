@@ -74,10 +74,8 @@ ol{
   color: white;
   font-size: 30px;
 }
-table{
-	border-style: double;
-}
-table{
+
+table,th,td{
 	border:1px red;
 }
 
