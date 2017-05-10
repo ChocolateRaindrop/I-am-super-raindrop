@@ -76,7 +76,8 @@ ol{
 }
 
 table,th,td{
-	border:1px red;
+	border: 1px red;
+	border-style: solid;
 }
 #Lion{
 	margin-left:25%
