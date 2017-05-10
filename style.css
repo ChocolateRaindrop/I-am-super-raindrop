@@ -77,4 +77,11 @@ ol{
 table{
 	border-collapse: collapse;
 }
-table, th, td
+table, th, td{}
+
+
+
+
+#Lion{
+	margin-left:25%
+}
